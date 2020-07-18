@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-text{
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 1.5;
+}
+/*navbar*/
+#menu-bar{
+    width: 50px;
+    height: 10px;
+    margin: 50px 10px 10px 20px;
+    position:fixed;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.bar{
+    background:orange;
+    border-radius: 10%;
+    transition: .4s;
+}
+#bar1{
+    width:40px;
+    height: 10px;
+    transform: translateY(-4px);
+}
+#bar2{
+    width: 40px;
+    height: 10px;
+}
+#bar3{
+    width: 40px;
+    height: 10px;
+    transform: translateY(4px);
+}
+.change .bar{
+    background: #fff;
+}
+.change #bar1{
+    transform: translateY(6px);
+    rotate: z(45deg);
+}
+.change #bar3{
+    transform: translateY(-15px);
+    rotate: z(-45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.nav li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    text-transform:uppercase ;
+    font-weight: bold;
+   
+}
+.nav li a:hover{
+    color: #fff;
+    background: orange;
+    padding-left: 10px;
+}
+.nav li{
+    margin: 20px 10px 10px 20px;
+    padding-top: 10px;
+    list-style-type:none;
+}
+.nav{
+    display: none;
+    
+}
+.change-btn{
+    display: block;
+}
+
+/*header*/
+.header{
+   /* display: flex;*/
+    min-height: 100vh;
+     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+     url(1.jpg)center/cover no-repeat fixed;
+    /* flex-direction: column;*/
+    margin-top: auto; 
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.hero .title{
+    color: #fff;
+    font-size: 50px;
+}
+.hero-button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    background: orange;
+    color:#fff;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top:10px;
+  
+}
+.hero-button:hover{
+    background: #fff;
+    color: orange;
+    border: none;
+    
+
+}
+
+.pulsate{
+    /*-webkit-*/animation: pulsate 3s ease-in-out;
+    /*-webkit-*/animation-iteration-count:infinite ;
+    opacity: .3;
+    color: black;
+}
+@-webkit-keyframes pulsate{
+    0% {
+        opacity: .3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .3;
+    }
+
+}
+
+/* End of header*/
