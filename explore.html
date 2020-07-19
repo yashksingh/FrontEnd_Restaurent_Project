@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <link rel="stylesheet" href="explore.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/154ac4a297.js" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src="jquery-3.4.1.js"></script>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 0;
+
+        }
+        h1{
+            font-family: "oswald";
+            color: #fff;
+            font-size: 100px;
+        }
+        .w{
+            margin: 0 auto;
+            white-space: nowrap;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            background: rgba(66,66,66,0.5) url("8.jpg") repeat fixed;
+            background-position: 50% 100%;
+            background-size: cover;
+            position: relative;
+            z-index: 5;
+            font-size: 0;
+        }
+        .i{
+            width: 40px;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+            z-index: 4;
+            padding: 2px;
+            transition: all 1.3s ease-in-out;
+            background: rgba(66,66,66,0.5) url("9.jpg") repeat fixed;
+            background-size: cover;
+            border-radius: 0%;
+        }
+        .i:hover{
+            transition: all 0s linear;
+            opacity: 0;
+        }
+        .h{
+            display: block;
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            text-align: center;
+            top: 35%;
+            font-size: 40px;
+            color: beige;
+            text-shadow: 0 5px 17px rgba(87,87,87,0.85);
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <nav>
+            <div class="logo">
+                
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    
+    </div>
+    
+    <div class="w">
+
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="i"></div>
+        <div class="h">
+            <h1>YASH RESTAURENT</h1>
+        </div>
+
+    </div>
+
+
+
+    <header class="text-center py-5">
+        <div class="container">
+            <h1 class="font-weight-light">Our Menu</h1>
+            <span></span>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box thumbnail">
+                    <img src="1.jpg">
+                    <div class="box-content">
+                        <h3 class="title">COOKIES</h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cutlery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="5.jpg">
+                    <div class="box-content">
+                        <h3 class="title">BAKERY</h3>
+                        <span class="post">Price - 25$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cutlery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="6.jpg">
+                    <div class="box-content">
+                        <h3 class="title">BIRYANI CHICKEN</h3>
+                        <span class="post">Price - 50$ </span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cutlery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="4.jpg">
+                    <div class="box-content">
+                        <h3 class="title">PASTRY</h3>
+                        <span class="post">Price - 10$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cutlery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="2.jpg">
+                    <div class="box-content">
+                        <h3 class="title">FRUIT CREAM </h3>
+                        <span class="post">Price - 12$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="3.jpg">
+                    <div class="box-content">
+                        <h3 class="title">CHOCO PASTRY</h3>
+                        <span class="post">Price - 15$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cutlery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="7.jpg">
+                    <div class="box-content">
+                        <h3 class="title">NAAN AND PANEER </h3>
+                        <span class="post">Price - 30$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="10.jpg">
+                    <div class="box-content">
+                        <h3 class="title">TEA TOAST </h3>
+                        <span class="post">Price - 10$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="11.jpg">
+                    <div class="box-content">
+                        <h3 class="title">WAFFLES </h3>
+                        <span class="post">Price - 10$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="12.jpg">
+                    <div class="box-content">
+                        <h3 class="title">BREAD OMLETTE </h3>
+                        <span class="post">Price - 8$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="13.jpg">
+                    <div class="box-content">
+                        <h3 class="title">CHICKEN BURGER </h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="14.jpg">
+                    <div class="box-content">
+                        <h3 class="title">ICE CREAM </h3>
+                        <span class="post">Price - 11$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="15.jpg">
+                    <div class="box-content">
+                        <h3 class="title">VEG CHILLY </h3>
+                        <span class="post">Price - 15$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="16.jpg">
+                    <div class="box-content">
+                        <h3 class="title">SPECIAL DIET FOOD </h3>
+                        <span class="post">Price - 30$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="17.jpg">
+                    <div class="box-content">
+                        <h3 class="title">PAN CAKE </h3>
+                        <span class="post">Price - 35$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="18.jpg">
+                    <div class="box-content">
+                        <h3 class="title">FRUIT SANDWICH </h3>
+                        <span class="post">Price - 18$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="19.jpg">
+                    <div class="box-content">
+                        <h3 class="title">CHICKEN LEG </h3>
+                        <span class="post">Price - 14$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="20.jpg">
+                    <div class="box-content">
+                        <h3 class="title">CHICKEN WINGS </h3>
+                        <span class="post">Price - 25$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="21.jpg">
+                    <div class="box-content">
+                        <h3 class="title">PALAK PANEER </h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="22.jpg">
+                    <div class="box-content">
+                        <h3 class="title">PANEER CHILLY </h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="25.jpg">
+                    <div class="box-content">
+                        <h3 class="title">SALAD </h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="26.jpg">
+                    <div class="box-content">
+                        <h3 class="title">VEG SANDWICH </h3>
+                        <span class="post">Price - 18$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="28.jpg">
+                    <div class="box-content">
+                        <h3 class="title">TOAST SANDWICH </h3>
+                        <span class="post">Price - 10$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="29.jpg">
+                    <div class="box-content">
+                        <h3 class="title">CHEESE PIZZA </h3>
+                        <span class="post">Price - 40$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="30.jpg">
+                    <div class="box-content">
+                        <h3 class="title">ACHARI PIZZA </h3>
+                        <span class="post">Price - 35$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="33.jpg">
+                    <div class="box-content">
+                        <h3 class="title">MUTTON BURGER </h3>
+                        <span class="post">Price - 30$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="34.jpg">
+                    <div class="box-content">
+                        <h3 class="title">MASALA PASTA </h3>
+                        <span class="post">Price - 25$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="32.jpg">
+                    <div class="box-content">
+                        <h3 class="title">ROLL PASTA </h3>
+                        <span class="post">Price - 20$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="35.jpg">
+                    <div class="box-content">
+                        <h3 class="title">NOODLES </h3>
+                        <span class="post">Price - 25$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="box">
+                    <img src="37.jpg">
+                    <div class="box-content">
+                        <h3 class="title">SEA FOOD </h3>
+                        <span class="post">Price - 80$</span>
+                    </div>
+    
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-cultery"></i></a></li>
+                        <li><a href="#"><i class="fa fa-smile"></i></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+
+        $(window).on("scroll",function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
